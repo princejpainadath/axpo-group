@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-AxpoGroup.PowerPosition.Worker-5090ce3e-7ded-46d8-b38c-bf85991f2727</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.11" />
+    <PackageReference Include="Microsoft.Extensions.Options.DataAnnotations" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AxpoGroup.PowerPosition.Application\AxpoGroup.PowerPosition.Application.csproj" />
+    <ProjectReference Include="..\AxpoGroup.PowerPosition.Infrastructure\AxpoGroup.PowerPosition.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PowerService">
+      <HintPath>..\AxpoGroup.PowerPosition.Infrastructure\lib\PowerService.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="AxpoGroup.PowerPosition.Application.Tests/AxpoGroup.PowerPosition.Application.Tests.csproj" Id="6c91e987-99df-4068-86c7-6c19ef3bec02" />
+  <Project Path="AxpoGroup.PowerPosition.Application/AxpoGroup.PowerPosition.Application.csproj" Id="18e6c81b-779e-442c-98c2-4326bd022626" />
+  <Project Path="AxpoGroup.PowerPosition.Domain/AxpoGroup.PowerPosition.Domain.csproj" Id="11e5ac0c-5813-4f26-8030-9c0a8bad5d3e" />
+  <Project Path="AxpoGroup.PowerPosition.Infrastructure.Tests/AxpoGroup.PowerPosition.Infrastructure.Tests.csproj" Id="f16f8b75-5bf4-4a81-9442-f4ced3b9c8b9" />
+  <Project Path="AxpoGroup.PowerPosition.Infrastructure/AxpoGroup.PowerPosition.Infrastructure.csproj" Id="41bc756f-0502-4bc7-8efa-389123aec754" />
+  <Project Path="AxpoGroup.PowerPosition.Worker.Tests/AxpoGroup.PowerPosition.Worker.Tests.csproj" Id="804ee63d-e79a-4faa-ae38-a631647b49ee" />
+  <Project Path="AxpoGroup.PowerPosition.Worker/AxpoGroup.PowerPosition.Worker.csproj" Id="c42f9759-a34d-49d5-8c39-842858d92ffc" />
+</Solution>
